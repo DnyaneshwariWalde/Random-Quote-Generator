@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Random Quote Generator</h1>
+    </header>
+
+    <div id="wrapper">
+        <div id="quote-box">
+            <div class="quote-text">
+                <span id="text" aria-live="polite" aria-label="quote">This is the quote text.</span>
+            </div>
+            <div class="quote-author" aria-label="author">
+                <span id="author">Author Name</span>
+            </div>
+            <div class="buttons">
+                <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank" rel="noopener noreferrer"
+                    href="https://twitter.com/intent/tweet?hashtags=quotes&amp;text=This%20is%20the%20quote%20text.%20-%20Author%20Name"
+                    aria-label="tweet">Tweet</a>
+                <a class="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.tumblr.com/widgets/share/tool?posttype=quote&amp;tags=quotes&amp;caption=Author%20Name&amp;content=This%20is%20the%20quote%20text.&amp;canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&amp;shareSource=tumblr_share_button"
+                    aria-label="tumblr">Tumblr</a>
+                <button class="button" id="new-quote" aria-label="new quote">New quote</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
