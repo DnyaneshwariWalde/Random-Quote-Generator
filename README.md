@@ -27,7 +27,8 @@ This project demonstrates the use of asynchronous JavaScript to fetch data from 
 
 ## Demo
 
-You can check out a live demo of the Random Quote Generator [here]([https://dnyaneshwariwalde.github.io/Random-Quote-Generator/]).
+You can check out a live demo of the Random Quote Generator [here](https://dnyaneshwariwalde.github.io/Random-Quote-Generator/).
+
 
 ## Contributing
 
